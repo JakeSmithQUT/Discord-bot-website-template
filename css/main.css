@@ -30,6 +30,7 @@ body {
  .login-btn {
      border: 2px solid #AD91FF !important;
      font-size: 10px !important;
+     display: none;
  }
  .login-btn:hover {
      background: #AD91FF !important;
@@ -194,8 +195,8 @@ color: rgba(255, 255, 255, 0.46) !important
     padding: 5px 6px !important;
     color: #ecf2ff;
     height: 155px; /* .push must be the same height as .footer */
-    bottom:0;
-    padding: 30px 30px !important
+    bottom:0 !important;
+    padding-bottom: 155px !important;
 }
 .push {
      height: 155px; /* .push must be the same height as .footer */
@@ -208,6 +209,7 @@ color: rgba(255, 255, 255, 0.46) !important
     font-size: 16px !important;
     line-height: 5px !important;
     letter-spacing: 0.15em !important;
+    bottom:0 !important;
     font-variant: small-caps !important;
 }
 * {
@@ -221,4 +223,5 @@ color: rgba(255, 255, 255, 0.46) !important
 .footer .bot-footer {
     text-align: center !important;
     color: #a2a8bd !important
+    bottom:0 !important;
 }
