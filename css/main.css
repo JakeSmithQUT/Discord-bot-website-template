@@ -30,7 +30,6 @@ body {
  .login-btn {
      border: 2px solid #AD91FF !important;
      font-size: 10px !important;
-     display: none;
  }
  .login-btn:hover {
      background: #AD91FF !important;
